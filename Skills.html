@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Skills.css" />
+    <link rel="stylesheet" href="./nav.css" />
+    <title>Resume</title>
+    <script
+      src="https://kit.fontawesome.com/6f50513901.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section id="links">
+        <nav>
+          <ul>
+            <li><a href="./Home22.html">Home</a></li>
+            <li><a href="./AboutMe.html">About Me</a></li>
+            <li><a href="./Skills.html">Skills</a></li>
+            <li><a href="./projects.html">Project</a></li>
+          </ul>
+        </nav>
+      </section>
+      <h1>My Skills</h1>
+    </header>
+    <div id="skills">
+      <div class="container">
+        <div class="skills-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Proffessional Skills</h2>
+            <p>
+              During my years in college I got to learned and Experience some
+              new thing, such as:
+            </p>
+            <ul>
+              <li>C#</li>
+              <li>C++</li>
+              <li>Sql</li>
+              <li>Html and CSS</li>
+              <li>Excel(Pivot,Vlookup)</li>
+            </ul>
+          </div>
+          <div class="other-skills">
+            <i class="fa-solid fa-database"></i>
+            <h2>Other Skills</h2>
+            <ul>
+              <li>Communication Skills</li>
+              <li>Leadership Skills</li>
+              <li>Leadership Skills</li>
+              <li>Time Management</li>
+              <li>Communication Skills</li>
+              <li>Teamwork and Collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</html>

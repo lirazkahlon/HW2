@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./AboutMe.css" />
+    <link rel="stylesheet" href="./nav.css"/>
+    <title>About Me</title>
+    <script
+      src="https://kit.fontawesome.com/6f50513901.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="links">
+      <nav>
+        <ul>
+          <li><a href="./Home22.html">Home</a></li>
+          <li><a href="./AboutMe.html">About Me</a></li>
+          <li><a href="./Skills.html">Skills</a></li>
+          <li><a href="./projects.html">Project</a></li>
+        </ul>
+      </nav>
+    </section>
+    <header>
+      <h1>3th Year industrial Engineering student</h1>
+    </header>
+   
+    <div class="personal">
+        <p>
+            I'm 24 years old from Haderah-born and raised
+            <br>
+            <h3>Hobbies</h3>
+            I enjoy doing all kinds of aport, from running and weighlifting to tennis and bouldering.
+        </p>
+    </div>
+    <div class="School">
+      <p>
+       <h3>2012-2017</h3>
+       <h5>"Tichon-Hadera"-high school</h5>
+    <ul>
+        <li>Finished with honors</li>
+        <li>97 in 5 points English</li>
+        <li>4 points math</li>
+    </ul>
+    <img src="pics/high school diploma.jpg">
+      </p>
+      </div>
+      <div class="army">
+      <h3>2018-2020</h3>
+        <h5>Served in the army as a combat soldier for 2.8 years</h5>
+        <ul>
+            <li>Finished a commenders coures and was selectes to remain there as a commander
+            </li>
+            <li>Was a part of the battlion guard unit</li>
+        </ul>
+       </div>
+        <div class="images-list">
+                <img src="./pics/army1.jpg" alt="army">
+                <img src="./pics/army2.jpg" alt="army">
+                <img src="./pics/army3.jpg" alt="army">
+                <img src="./pics/army4.jpg" alt="army">
+                <img src="./pics/army5.jpg" alt="army">
+            
+        
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname){
+          for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+          }
+          for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+          }
+          event.currentTarget.classList.add("active-link");
+          document.getElementById(tabname).classList.add("active-tab");
+      }
+  </script>
+  </body>
+</html>

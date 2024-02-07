@@ -1,0 +1,68 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home22.css" />
+    <title>Liraz Kahlon</title>
+    <script src="https://kit.fontawesome.com/6f50513901.js" crossorigin="anonymous"></script>
+    </head>
+</head>
+<body>
+  <header>
+    <section id="links">
+      <nav>
+        <ul>
+          <li><a href="./Home22.html">Home</a></li>
+          <li><a href="./AboutMe.html">About Me</a></li>
+          <li><a href="./Skills.html">Skills</a></li>
+          <li><a href="./projects.html">Project</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section id="header-text">
+      <p>Endustrial Engineering Student</p>
+      <h1>Hi, I'm <span>Liraz</span> from Israel</h1>
+    </section>
+  </header>
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 clss="sub-title">Contact me </h1>
+                <p></i>liraz0807@gmail.com</p>
+                <p>0506940131</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100001870050116"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/liraz-kachlon-0a86b2229/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./pics/Liraz Kahlon קורות חיים אנגלית.pdf"download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"> 
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="sumbit" class="btn btn2">Sumbit</button>
+                </form>
+            </div>
+            
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
+
+</html>
